@@ -13,6 +13,6 @@
     }
   ],
   "env": {
-    "HUGGINGFACEHUB_API_TOKEN": "@huggingface-api-token"
+    "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": "@huggingface-api-token"
   }
 }
