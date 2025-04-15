@@ -5,7 +5,7 @@ st.set_page_config(page_title="HR Chatbot", page_icon="🤖")
 st.title("HR Policy Chatbot")
 
 # Replace with your Vercel backend URL (after deployment)
-BACKEND_URL = "https://your-vercel-app.vercel.app"  # ⚠️ Update after deployment!
+BACKEND_URL = "https://hr-chatbot-iota.vercel.app/"  # ⚠️ Update after deployment!
 
 # Initialize chat
 if "messages" not in st.session_state:
