@@ -64,7 +64,7 @@ async def ask_question(question: Question):
     # Replace with your Hugging Face API key (free)
     llm = HuggingFaceHub(
         repo_id="google/flan-t5-large",
-        huggingfacehub_api_token="YOUR_HUGGINGFACE_API_KEY",  # 🔑 Replace this!
+        huggingfacehub_api_token="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",  # 🔑 Replace this!
         model_kwargs={"temperature": 0.5, "max_length": 512}
     )
     
