@@ -11,5 +11,8 @@
       "src": "/(.*)",
       "dest": "api/main.py"
     }
-  ]
+  ],
+  "env": {
+    "HUGGINGFACEHUB_API_TOKEN": "@huggingface-api-token"
+  }
 }
